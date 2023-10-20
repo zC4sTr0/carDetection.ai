@@ -4,8 +4,8 @@ import torch
 from PIL import Image
 
 # Load the processor and model
-processor = DetrImageProcessor.from_pretrained("facebook/detr-resnet-50")
-model = DetrForObjectDetection.from_pretrained("facebook/detr-resnet-50")
+processor = DetrImageProcessor.from_pretrained("")
+model = DetrForObjectDetection.from_pretrained("")
 
 cap = cv2.VideoCapture(0)
 
