@@ -15,7 +15,7 @@ Quando um carro é detectado, o aplicativo desenha uma caixa ao redor do carro e
 ## Como Usar
 
 1. Clone o repositório.
-2. Instale as dependências necessárias com `pip install -r requirements.txt`.
+2. Instale as dependências necessárias com `pip install torch torchvision torchaudio opencv-python numpy'
 3. Execute `python test.py` para iniciar a detecção de carros.
 4. A interface mostrará duas janelas: uma com o feed da webcam em tempo real e outra com a última detecção de carro.
 
